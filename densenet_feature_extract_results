@@ -1,0 +1,91 @@
+###Test Accuracy: 97.31% Test Loss: 14.06% - 224x224 - segment+equalizeHist+densenetfeatureExtract-100epoch-test_size=0.15 - imgs 9348 - 944 users
+###Test Accuracy: 97.03% Test Loss: 21.09% - 224x224 - segment+equalizeHist+densenetfeatureExtract-300epoch-test_size=0.15 - imgs 9348 - 944 users
+###Test Accuracy: 97.86% Test Loss: 13.68% - 224x224 - segment+equalizeHist+densenetfeatureExtract-150epoch-test_size=0.15 - imgs 2801 - 282 users
+###Test Accuracy: 97.15%Test Loss: 12.12% - 224x224 - segment+equalizeHist+densenetfeatureExtract-200epoch-test_size=0.15 - imgs 2801 - 282 users
+###Test Accuracy: 98.34% Test Loss: 10.31% - 224x224 - segment+equalizeHist+densenetfeatureExtract-300epoch-test_size=0.15 - imgs 2801 - 282 users
+
+
+###Test Accuracy: 96.24% Test Loss: 31.35%  - 224x224 - segment+densenetfeatureExtract-100epoch-test_size=0.15  - imgs 4428 - 445 users
+###Test Accuracy: 98.80% Test Loss: 10.86% - 224x224 - segment+densenetfeatureExtract-300epoch-test_size=0.15  - imgs 4428 - 445 users
+###Test Accuracy: 98.65% Test Loss: 23.18% - 224x224 - segment+densenetfeatureExtract-500epoch-test_size=0.15  - imgs 4428 - 445 users
+###Test Accuracy: 98.65% Test Loss: 7.17% - 224x224 - segment+densenetfeatureExtract-300epoch-test_size=0.15  - imgs 4428 - 445 users
+
+# model = Sequential()
+# # Deeper Convolutional Layers
+# model.add(Flatten(input_shape=input_shape[1:]))
+# model.add(Dense(100, activation=keras.layers.LeakyReLU(alpha=0.3)))
+# model.add(Dropout(0.3))
+# model.add(Dense(50, activation=keras.layers.LeakyReLU(alpha=0.3)))
+# model.add(Dropout(0.6))
+# model.add(Dense(num_classes, activation="softmax"))
+# optimiser = keras.optimizers.Adam(learning_rate=0.0001)
+# model.compile(optimizer=optimiser,
+#                 loss='categorical_crossentropy',
+#                 metrics=['accuracy'])
+# model.summary()
+# return model
+
+
+###Test Accuracy: 99.52% Test Loss: 4.60% - 224x224 - segment+equalizeHist+densenetfeatureExtract-500epoch-test_size=0.15 - imgs 2801 - 282 users
+###Test Accuracy: 99.29% Test Loss: 1.79% - 224x224 - segment+equalizeHist+densenetfeatureExtract-800epoch-test_size=0.15 - imgs 2801 - 282 users
+###Test Accuracy: 99.93% Test Loss: 0.58%  - 224x224 - segment+equalizeHist+densenetfeatureExtract-1200epoch-test_size=0.15 - imgs 2801 - 282 users
+###Test Accuracy: 99.53% Test Loss: 1.28%  - 224x224 - segment+equalizeHist+densenetfeatureExtract-1200epoch-test_size=0.15 - imgs 2801 - 282 users
+
+###Test Accuracy: 98.95%Test Loss: 13.52% - 224x224 - segment+equalizeHist+densenetfeatureExtract-500epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 99.55% Test Loss: 1.68% - 224x224 - segment+equalizeHist+densenetfeatureExtract-1000epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 98.50% Test Loss: 19.80% - 224x224 - segment+equalizeHist+densenetfeatureExtract-1200epoch-test_size=0.15 - imgs 4428 - 445 users
+
+###Test Accuracy: 98.20% Test Loss: 18.89% -  224x224 - segment+densenetfeatureExtract-100epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 98.35% Test Loss: 18.49% -  224x224 - segment+densenetfeatureExtract-200epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 98.80% Test Loss: 12.57% -  224x224 - segment+densenetfeatureExtract-300epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 99.10% Test Loss: 10.81% - 224x224 - segment+densenetfeatureExtract-350epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 98.65% Test Loss: 23.54% -  224x224 - segment+densenetfeatureExtract-1000epoch-test_size=0.15 - imgs 4428 - 445 users
+
+
+###Test Accuracy: 98.04% Test Loss: 10.13% -  224x224 - segment+CLAHE+densenetfeatureExtract-300epoch-test_size=0.15 - imgs 4428 - 445 users
+
+# model = Sequential()
+# model.add(Flatten(input_shape=input_shape[1:]))
+# model.add(Dense(100, activation=keras.layers.LeakyReLU(alpha=0.3)))
+# model.add(Dropout(0.4))
+# model.add(Dense(50, activation=keras.layers.LeakyReLU(alpha=0.3)))
+# model.add(Dropout(0.5))
+# model.add(Dense(num_classes, activation="softmax"))
+# optimiser = keras.optimizers.Adam(learning_rate=0.0001)
+# model.compile(optimizer=optimiser,
+#                 loss='categorical_crossentropy',
+#                 metrics=['accuracy'])
+# model.summary()
+
+
+###Test Accuracy: 98.50% Test Loss: 13.20% - 224x224 - segment+densenetfeatureExtract-200epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 98.50% Test Loss: 5.58% - 224x224 - segment+densenetfeatureExtract-350epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 98.05% Test Loss: 24.08% - 224x224 - segment+densenetfeatureExtract-500epoch-test_size=0.15 - imgs 4428 - 445 users
+
+
+###Test Accuracy: 97.90% Test Loss: 13.39% - 224x224 - segment+hist+densenetfeatureExtract-100epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 97.75% Test Loss: 16.02% - 224x224 - segment+hist+densenetfeatureExtract-200epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 98.35% Test Loss: 17.58% - 224x224 - segment+hist+densenetfeatureExtract-500epoch-test_size=0.15 - imgs 4428 - 445 users
+
+# model = Sequential()
+# model.add(Flatten(input_shape=input_shape[1:])) 
+# model.add(Dense(100, activation=keras.layers.LeakyReLU(alpha=0.3))) 
+# model.add(Dropout(0.3)) 
+# model.add(Dense(50, activation=keras.layers.LeakyReLU(alpha=0.3))) 
+# model.add(Dropout(0.4)) 
+# model.add(Dense(num_classes, activation="softmax"))
+
+
+
+
+
+###Test Accuracy: 99.10% Test Loss: 7.58% - 224x224 - segment+hist+densenetfeatureExtract-300epoch-test_size=0.15 - imgs 4428 - 445 users
+###Test Accuracy: 99.10% Test Loss: 16.58% - 224x224 - segment+hist+densenetfeatureExtract-500epoch-test_size=0.15 - imgs 4428 - 445 users
+
+# model = Sequential()
+# model.add(Flatten(input_shape=input_shape[1:])) 
+# model.add(Dense(100, activation=keras.layers.LeakyReLU(alpha=0.3))) 
+# model.add(Dropout(0.5)) 
+# model.add(Dense(50, activation=keras.layers.LeakyReLU(alpha=0.3))) 
+# model.add(Dropout(0.5)) 
+# model.add(Dense(num_classes, activation="softmax"))
